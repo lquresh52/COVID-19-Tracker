@@ -37,7 +37,15 @@ class App extends React.Component{
                 <Cards data= {data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country}/>
+                <div>
+                    <br></br>
+                    <br></br>
+                </div>
+                <div className={styles.credit_divi} >
+                    <h4 className={styles.credits}>Designed and Developed By : Quresh Lakdawala </h4>
+                </div>
             </div>
+
         );
     }
 }

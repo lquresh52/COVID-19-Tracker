@@ -22,3 +22,14 @@ body{
         width: 95%;
     }
 }
+
+.credit_divi{
+    background-color: rgb(195, 250, 246);
+    width: 100%;
+    text-align: center;
+}
+
+h2.credits{
+    font-family: 'Nanum Gothic Coding', monospace;
+    /* font-family: 'Orbitron', sans-serif; */
+}
